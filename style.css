@@ -1,0 +1,287 @@
+
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- TAILWIND CDN -->
+<!-- TAILWIND CDN --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
+
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- TAILWIND CDN -->
+<!-- TAILWIND CDN -->
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +++++++++++++++++++++++++++++++++ --> 
+
+
+
+<!-- +######################################################## -->
+<!-- +####################################################### -->
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- ++++++. SYLE SECTION BEGINS ++++++ -->
+<!-- ++++++. SYLE SECTION BEGINS ++++++ -->
+<!-- ++++++. SYLE SECTION BEGINS ++++++ -->
+<!-- ++++++. SYLE SECTION BEGINS ++++++ -->
+<!-- +++++++++++++++++++++++++++++++++ --> 
+<!-- +######################################################## -->
+<!-- +######################################################## -->
+
+<!-- +++++++++++++++ --> 
+<!-- +++++++++++++++ --> 
+<!-- +++++++++++++++ --> 
+<!-- +++++++++++++++ --> 
+
+<!-- +######################################################## -->
+<!-- @@@@@@@@@@.FULL BACKGROUND COLOR , BEGIN @@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@.FULL BACKGROUND COLOR , BEGIN @@@@@@@@@@@@@@@@ -->
+<!-- +######################################################## -->
+<style>
+body {
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom left, grey , white);
+}
+</style>
+
+<!-- +######################################################## -->
+<!-- @@@@@@@@@@.FULL BACKGROUND COLOR , BEGIN @@@@@@@@@@@@@@@@ -->
+<!-- @@@@@@@@@@.FULL BACKGROUND COLOR , BEGIN @@@@@@@@@@@@@@@@ -->
+<!-- +######################################################## -->
+
+ 
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Sticky Navigation Bar Example , Begin -->
+<!-- Sticky Navigation Bar Example , Begin -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<style>
+body {
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #D9AFD9;
+}
+</style>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Sticky Navigation Bar Example , ends -->
+<!-- Sticky Navigation Bar Example , ends -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- BACKGROUND--HEAD gradient - style -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<style>
+#grad1 {
+  height: 105px;
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, white , grey);
+}
+</style>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- BACKGROUND--HEAD gradient - style -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ###.CONTAINER gradient - style #### --> 
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<style>
+#grad2 {
+  height: 200px;
+  background-color: white; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom, white, grey);
+}
+</style>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ###.CONTAINER gradient - style #### --> 
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+
+
+<!-- ############################## -->
+<!-- TYPEWRITER EFFECT CODE - STYLE -- BEGIN -->
+<!-- ############################## -->
+<style>
+.box-main{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    font-size: 40px;
+}
+
+/* cursor */
+.text-change > .txt{
+    border-right: 0.2rem solid #777;
+    animation: blink 575ms infinite;
+}
+@keyframes blink {
+    to{
+        border-right: 0.2rem solid transparent;
+    }
+}
+</style>
+
+<!-- ############################## -->
+<!-- TYPEWRITER EFFECT CODE - CSS --END -->
+<!-- ############################## -->
+
+
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Support--back--image -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<style>
+#backg-example1 {
+  border: 1px dotted black;
+  padding: 135px;
+  background: yellow;
+  background-image: url("https://res.cloudinary.com/bkalfkalqq3jhdklazxdsetg/image/upload/v1647299412/underwater.jpg");
+  /* background-image: url("img_snow_wide.jpg"); */ 
+  background-clip: padding-box;
+}
+</style>
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Support--back--image -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+
+
+
+<!-- ################################################# -->
+<!-- ##### W3.CSS Color Themes , style -- begin #### --> 
+<!-- ##### W3.CSS Color Themes , style -- begin #### --> 
+<!-- ################################################# -->
+<style>
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-webkit-linear-gradient(top,#64B5F6 25%,#42A5F5 75%)}
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-moz-linear-gradient(top,#64B5F6 25%,#42A5F5 75%)}
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-o-linear-gradient(top,#64B5F6 25%,#42A5F5 75%)}
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-ms-linear-gradient(top,#64B5F6 25%,#42A5F5 75%)}
+.w3-theme-gradient {
+  color: #000 !important;
+  background: linear-gradient(top,#64B5F6 25%,#42A5F5 75%)}
+</style>
+<!-- ################################################# -->
+<!-- ##### W3.CSS Color Themes , style -- end #### --> 
+<!-- ##### W3.CSS Color Themes , style -- end #### --> 
+<!-- ################################################# -->
+
+
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+
+<!-- ########################################### -->
+<!-- ######  Smooth Scroll, begin ######  -->
+<!-- ######  Smooth Scroll, begin ######  -->
+<!-- ########################################### --> 
+<style>
+html {
+  scroll-behavior: smooth;
+}
+
+#section1 {
+  height: 30px;
+  background-color: pink;
+}
+
+#section2 {
+  height: 30px;
+  background-color: yellow;
+}
+</style>
+
+<!-- #################################### --> 
+<!-- ######  Smooth Scroll , end ######  -->
+<!-- ######  Smooth Scroll , end ######  -->
+<!-- ################################### --> 
+
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+<!-- +++++++++++ -->
+
+<!-- ++++++#########################################+++ -->
+<!-- ++++++. SYLE SECTION ENDS ++++++ -->
+<!-- ++++++. SYLE SECTION ENDS ++++++ -->
+<!-- ++++++. SYLE SECTION ENDS ++++++ -->
+<!-- ++++++. SYLE SECTION ENDS ++++++ -->
+<!-- ++++++#########################################+++ -->
