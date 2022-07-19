@@ -363,15 +363,93 @@ document.getElementById("demo").innerHTML = d;
 <!-- +++++++++++++++++++++++++++++ -->
 <!-- +++++++++++++++++++++++++++++ -->
 
+
+
+
+
+
+
+<!-- #################################################### -->
+<!-- #################################################### -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++ -->
+<!-- Manual Slideshow , body , begin--> 
+<!-- Manual Slideshow , body , begin--> 
+<!-- Manual Slideshow , body , begin--> 
+<!-- ++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+
+<h2 class="w3-center"></h2>
+
+<div class="w3-content w3-display-container w3-shadow w3-animate-opacity">
+  <img class="mySlides" src="https://api.lorem.space/image?w=600&h=400" style="width:100%">
+  <img class="mySlides" src="https://api.lorem.space/image?w=600&h=400" style="width:100%">
+  <img class="mySlides" src="https://api.lorem.space/image?w=600&h=400" style="width:100%">
+  <img class="mySlides" src="https://api.lorem.space/image?w=600&h=400" style="width:100%">
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- Manual Slideshow , body , END  --> 
+<!-- Manual Slideshow , body , END  -->
+<!-- Manual Slideshow , body , END  -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
+<!-- #################################################### -->
+<!-- #################################################### -->
+
+
+
+
+<!-- +++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++ -->
+<!-- +++++++++++++++++++++++++++++ -->
+
+
+
+
+
 <!-- #################################################### -->
 <!-- ########## FULL--HEADER--IMAGE , BEGIN ########## -->
 <!-- ########## FULL--HEADER--IMAGE , BEGIN ########## -->
 <!-- ########## FULL--HEADER--IMAGE , BEGIN ########## -->
 <!-- ####################################################### -->
+<!--
+
 <div class="w3-container w3-shadow w3-animate-opacity">
 <img src="https://res.cloudinary.com/bkalfkalqq3jhdklazxdsetg/image/upload/v1632168934/pexels-rostislav-uzunov-5011647_1_sh1jlt.jpg" class="w3-border" alt="Header" style="padding:4px;width:100%">
 </div>
 
+-->
 <!-- ++++++++++++++++++++++++++++++++++++++ -->
 
 </header>
@@ -905,57 +983,6 @@ body {margin:0;height:1000px;}
 
 
 
-
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
-<!-- ++++++++++++++++++++++++++++++++++++ -->
-<!-- Manual Slideshow , body , begin--> 
-<!-- Manual Slideshow , body , begin--> 
-<!-- Manual Slideshow , body , begin--> 
-<!-- ++++++++++++++++++++++++++++++++++++ -->
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
-
-<h2 class="w3-center">Manual Slideshow</h2>
-
-<div class="w3-content w3-display-container">
-  <img class="mySlides" src="https://api.lorem.space/image?w=600&h=400" style="width:100%">
-  <img class="mySlides" src="https://api.lorem.space/image?w=600&h=400" style="width:100%">
-  <img class="mySlides" src="https://api.lorem.space/image?w=600&h=400" style="width:100%">
-  <img class="mySlides" src="https://api.lorem.space/image?w=600&h=400" style="width:100%">
-
-<!-- +++++++++++++++++++++++++++++++++++++++++++++ -->
-  <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
-  <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
-</div>
-
-<script>
-var slideIndex = 1;
-showDivs(slideIndex);
-
-function plusDivs(n) {
-  showDivs(slideIndex += n);
-}
-
-function showDivs(n) {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  if (n > x.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = x.length}
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  x[slideIndex-1].style.display = "block";  
-}
-</script>
-
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
-<!-- Manual Slideshow , body , END  --> 
-<!-- Manual Slideshow , body , END  -->
-<!-- Manual Slideshow , body , END  -->
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
-<!-- ++++++++++++++++++++++++++++++++++++++++++++++++ -->
 
 
 
